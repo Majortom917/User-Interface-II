@@ -44,7 +44,8 @@ table {
 *{
     box-sizing:border-box;
      border:1px solid grey; /*remove later*/
-    max-width:100%;
+   /* max-width:100%; /*background-color:grey;*/
+    /*color:red;*/
   }
   /*General Styles*/
   html{
@@ -55,7 +56,37 @@ table {
     line-height:1.5;}
     h1{font-size: 4rem; 
         text-align:center;
+       
     }
-    nav a{display:flex;
-       justify-content: space-around;
+    
+    a{text-decoration:none;}
+    nav {display:flex;
+       justify-content: center;
    }
+   nav a{display: inline-block;
+    width:12%;
+    background-color:grey;
+    border:solid black;
+    color:white;
+    padding:0 4%;
+    margin:2rem 0
+}
+h2{font-size:4rem;
+margin:2rem 0;
+text-align:center;
+}
+
+.intro p{display:flex;
+padding:0 18%;}
+span{font-weight:bold}
+.background-image{ background-image: url(https://ch3301files.storage.live.com/y4pYeBTGLq7lLbTj4ei4Eut4Z2xxj-v07D0jodtHk97358a6gFurt-a_LEevRZQ8k-tzA1mfqNfS-iZLc5-frRRORlcMv5ZrQcOzPt_0LA-WixKnJMsQdJ92Asj8OVED2f68natPJZZN1ePgrLETg0mJfqVGSbRA9pYLKzza2itWQZupZrNgN6uBI3hZyi5FJ2bm2OF9fq-EeFe6MWj-IxigRnvHr-HN4YBNd4-Z4QtmwY?psid=2&width=538&height=404);
+background-repeat:none;
+background-size: cover;
+height:50rem;}
+
+.projects{ display:flex;
+  justify-content:space-around;}
+ .gallery{display:flex; max-height: 50rem;
+
+
+
