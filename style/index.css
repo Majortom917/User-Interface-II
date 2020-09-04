@@ -11,7 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: .28rem;
 	padding: 0;
 	/*border: 0;*/
 	font-size: 100%;
@@ -42,8 +42,8 @@ table {
 	border-spacing: 0;
 }
 *{
-    box-sizing:border-box;
-     border:1px solid grey; /*remove later*/
+    box-sizing:content-box;
+   /*  border:1px solid grey; /*remove later*/
    /* max-width:100%; /*background-color:grey;*/
     /*color:red;*/
   }
@@ -68,28 +68,39 @@ table {
     background-color:grey;
     border:solid black;
     color:white;
-    padding:0 4%;
-    margin:2rem 0
+    padding:1.5rem 0% 1.5rem 0;
+    margin:2rem 0; text-align: center;
 }
 h2{font-size:4rem;
 margin:2rem 0;
 text-align:center;
+padding:4rem 0;
 }
 
 .intro p{display:flex;
-padding:0 18%;}
+padding:0 18% 5% 18%;}
 span{font-weight:bold}
-.background-image{ background-image: url(https://ch3301files.storage.live.com/y4pYeBTGLq7lLbTj4ei4Eut4Z2xxj-v07D0jodtHk97358a6gFurt-a_LEevRZQ8k-tzA1mfqNfS-iZLc5-frRRORlcMv5ZrQcOzPt_0LA-WixKnJMsQdJ92Asj8OVED2f68natPJZZN1ePgrLETg0mJfqVGSbRA9pYLKzza2itWQZupZrNgN6uBI3hZyi5FJ2bm2OF9fq-EeFe6MWj-IxigRnvHr-HN4YBNd4-Z4QtmwY?psid=2&width=538&height=404);
+.background-image{ background-image: url(https://image.freepik.com/free-photo/orange-grunge-brick-wall-one-side-green-background_15039-305.jpg);
 background-repeat:none;
 background-size: cover;
-height:50rem;}
+height:50rem; margin-bottom:10%}
 
 .projects{ display:flex;
   }
  .gallery img{display:inside; width:24%; height:100%;
      justify-content: center;
      flex-direction: row;
-    margin-left:0%}
-
+    margin-left:0%;}
+    .projects p{text-align: justify;padding:4% 4%;height:14rem;}
+    footer{background-color: grey;
+         height:5rem;
+         text-align:center;
+        padding:6% 0; margin:10% 0}
+footer a{text-decoration:none;
+     background-color:white
+     ;border:black solid;border-radius:5px;margin:5rem 5rem;
+    padding:1.2rem 2rem;padding-top:1rem;
+}
+nav a .tab{padding-left:5rem;display: none;}
 
 
