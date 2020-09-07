@@ -103,4 +103,15 @@ footer a{text-decoration:none;
 }
 nav a .tab{padding-left:5rem;display: none;}
 
+@media(max-width: 800px){
+  body{width: 90%}
+  h2{padding: 1% 1%; margin: .5%;}
+
+.gallery img{ width:49%;
+   flex-wrap: wrap;
+   padding: 3% 0%; height: auto;
+ 
+
+}
+}
 
