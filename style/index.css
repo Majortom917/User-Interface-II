@@ -110,8 +110,21 @@ nav a .tab{padding-left:5rem;display: none;}
 .gallery img{ width:49%;
    flex-wrap: wrap;
    padding: 3% 0%; height: auto;
- 
+  }
 
-}
+  nav {display: flex;
+     flex-direction: column;
+      align-items: center;
+      margin: 1% 0; align-content: flex-start;}
+nav a{display: inline-block;
+        width:12%;
+        background-color:grey;
+        border:solid black;
+        color:white;
+        padding:1.5rem 5% 1.5rem 5%;
+        margin:0 0; text-align: center;}
+.intro p{ padding:1% 2% 5% 4%;}
+.projects p{ height:1rem}
+        
 }
 
